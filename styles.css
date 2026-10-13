@@ -135,6 +135,10 @@ nav.main a.btn{border-bottom:0;padding:.7rem 1.15rem;color:#fff}
 .careers .btn{background:var(--turq);color:var(--navy)}
 .careers .btn:hover{background:#fff}
 
+/* Photo under the careers band */
+.photo-band{margin:0;background:var(--navy)}
+.photo-band img{display:block;width:100%;height:auto;max-height:560px;object-fit:cover;object-position:50% 50%}
+
 /* Closing */
 .closing{padding-block:clamp(3rem,5vw,4rem)}
 .closing .row{display:grid;grid-template-columns:1fr auto;gap:2.5rem;align-items:center}
