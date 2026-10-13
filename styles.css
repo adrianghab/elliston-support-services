@@ -119,6 +119,9 @@ nav.main a.btn{border-bottom:0;padding:.7rem 1.15rem;color:#fff}
 .prof li{font-family:var(--serif);font-size:1.15rem;padding:.8rem 0;border-bottom:1px solid var(--rule);display:flex;align-items:center;gap:.75rem}
 .prof li::before{content:"";width:.45rem;height:.45rem;background:var(--turq);flex:none}
 @media (max-width:520px){.prof{grid-template-columns:1fr}}
+.prof.one{grid-template-columns:1fr}
+.prof.one li{align-items:flex-start;line-height:1.45}
+.prof.one li::before{margin-top:.5em}
 .signoff{font-family:var(--serif);font-style:italic;font-size:1.2rem;color:var(--teal)}
 @media (max-width:820px){.svc{grid-template-columns:1fr}.svc .head{position:static}}
 
